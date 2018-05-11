@@ -21,7 +21,7 @@ Unix commands:
 	
 Directory Symbols:
 	
-	 ..		 Parent directory	 e.g. cd..
+	 ..		 	 Parent directory	 e.g. cd..
 	 .			 Current directory   e.g. ./program
 	 -			 Previous directory  e.g. cd -
 	 ~			 Home directory		 e.g. cd
@@ -69,29 +69,6 @@ e.g.
 	
 		#This is a comment
 		print("Hello World")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
