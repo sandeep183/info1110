@@ -1,0 +1,98 @@
+WEEK 1 - TUTORIAL: INTRODUCTION, TERMINAL and OUTPUT
+======================================================
+
+
+LINUX, Terminal and File System
+=================================
+
+Get familiar with linux and have access to a unix or unix-like OS
+
+Unix commands:
+
+	- cd:		 Change directory
+	- mkdir:	 Make directory
+	- ls:		 List directory contents
+	- rmdir:	 Remove directory
+	- rm:		 Remove
+	- mv: 		 Move
+	- cp: 		 Copy
+	- pwd: 		 Print working directory
+	
+	
+Directory Symbols:
+	
+	 ..		 Parent directory	 e.g. cd..
+	 .			 Current directory   e.g. ./program
+	 -			 Previous directory  e.g. cd -
+	 ~			 Home directory		 e.g. cd
+	 /			 Root directory		 e.g. cd /
+	 
+
+
+Python
+=======
+
+We are going to be using python3
+
+Open the terminal and type: python3 
+This will allow you to see if it is installed
+
+
+
+
+print()
+========
+
+To print to the terminal in a python program:
+
+	1. Open your text editor and save it in a file called: hello.py
+
+	2. Write the following code in your program:
+
+				print("Hello Python!")
+				
+	3.Run the program by entering into the terminal: python3 hello.py
+
+	4.Your program should output the results
+
+
+
+Comments
+=========
+
+In python, we use # to represent a line with a comment.
+
+A line with '#' in the front will not be compiled and will be omitted by the
+interpreter.
+
+e.g.
+	
+		#This is a comment
+		print("Hello World")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
