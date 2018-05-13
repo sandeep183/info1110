@@ -1,0 +1,133 @@
+WEEK 2 - TUTORIAL: VARIABLES, TYPES and FORMATTING
+===================================================
+
+
+Built-In Types
+===============
+
+	- Integer (int): Creates an integer from a series of numeric characters
+					 e.g. 45, 3, 90091
+	
+	- Floating point (float): Numeric characters with a decimal place
+							  e.g. 45.5, 2.2, 12/5
+							  
+	- Boolean (bool): Boolean variables only have two values assosciated with
+					  them, True and False
+					  e.g. a = True, b = not a #This is False
+	
+	- String (str): When declaring a string within your code, it is denoted using
+					the ' ' symbol or " "
+					e.g. "This is a string", 'This is a string'
+					
+
+Operators
+==========
+
+Data types have operators which can be performed on them.
+
+	- Arithmetic
+	
+		 + (Add) operator: works with numerical types and strings (concatenate)
+		 - (Subtract) operator: works with numerical types (ints, floats)
+		 * (Multiplication) operator: works with numerical types and strings
+		 / (Division) operator: works with numerical types (ints, floats)
+		 
+	
+	- Comparative
+	
+		== (Equality) Check if two values are equal (all data types)
+		< (Less than) Check if a value is less than another
+		<= (Less than or equal to)
+		> (Greater than) 
+		>= (Greater than or equal to)
+		!= (Not equal to)
+		
+	
+	- Logical
+	
+		not (Negation) returns a boolean value
+		and (Logical AND) returns true iff both values are true, false otherwise
+		or (Logical OR) returns true if at least one value is true false otherwise
+		
+		
+	- Bitwise
+	
+		& (Binary AND)
+		| (Binary OR)
+		^ (Binary XOR)
+		! (Flip bits)
+		<< (Left shift)
+		>> (Right shift)
+
+
+Tuples
+=======
+
+There is an immutable, aggregate type, called a Tuple. 
+This type holds multiple values which can be bound to one variable.
+
+E.g.
+
+			x = (1, "Hello!")
+			print(x)
+			
+			>> (1, "Hello!")
+			
+You can expand the contents of a tuple type into separate variables.
+
+E.g.
+			x = (1, "Hello!")
+			y, z = x
+			print(y)
+			print(z)
+			
+			>> 1
+			>> Hello!	
+				
+			
+We can access individual elements of a tuple using indexing, starting from 0
+
+E.g. 
+			x = ('One', "Two", 3)
+			print(x[0])
+			print(x[1])
+			print(x[2])
+			
+			>> One
+			>> Two
+			>> 3
+			
+			
+	
+		
+
+Format() with print()
+======================
+
+We can use .format() method when printing variables
+
+		Specifier		Meaning							
+		---------	    -------					
+		   {}			Data Placement
+		 {named}		Named Data Placement
+		 {index}		Index Data Placement
+		 {data[0]} 		Named Data with index or key
+		   
+
+e.g.
+
+				s = "Pirates! The Game"
+				p = 1/3
+				t = 4100202
+				
+				print("Getting: {}, Progress: {:.2f}, Downloaded: {:8}".format(s,p,t))
+
+
+
+
+
+
+
+
+
+
