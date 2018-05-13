@@ -1,0 +1,111 @@
+WEEK 3 - TUTORIAL: SWITCHES and FILE I/O
+======================================================
+
+
+SWITCHES
+==========
+
+It is common for the execution of a program to depend on its input.
+
+Altering the flow of the program is contingent on some condition is known as a switch or
+an "if statement"
+
+Syntax:
+
+				if condition1:
+					do something
+				elif condition2:
+					do something different
+				else:
+					do something else
+					
+					
+					
+Here elif is a contraction of "else if"
+
+
+Positions of the colons and the indentation on subsequent lines is incredibly important
+syntactically, and forgetting either will throw an error.
+
+Indentations should be four spaces, not a tab, mixing tabs and spaces will cause an error!
+
+
+
+MULTIPLE CONDITION SWITCHES
+===========================
+
+Occasionally you may wish to include more than one condtition in a switch.
+
+To do this we use the and, or and not operations.
+
+E.g.
+
+		if a %2 == 0 and a & 3 == 0:
+			print("a is divisible by 6!")
+			
+
+Another handy keyword is "in".
+This ius used to compare an element to some collection of elements.
+For instance whether a certain letter or word is in a string.
+
+E.g.
+		sentence = "Hello how are you going my friend"
+		if "going" in sentence:
+			print("The word going is found")
+		else:
+			print("sorry going is not there")
+
+
+
+FILE I/O and PYTHON OBJECTS
+============================
+
+Files in python are their own type, and can be opened and accessed using the open function.
+
+When opening a file a mode needs to be set, typically read, write or append represented by
+'r, 'w', 'a' respectively.
+
+
+e.g.
+			my_file = open('filename', 'r')
+			
+We must close open files when you have finished using them.
+
+e.g. 
+			my_file.close()
+			
+			
+
+
+WITH
+======
+
+In larger programs, the points at which a particular file is opened or closed can be
+unclear.
+
+The "with" keyword can be used using a very similar syntax to the "if" statement to 
+delineate the scope over which the file is open.
+
+syntax:
+
+			with open("my_file", "r") as my_file:
+				contents = my_file.readlines()
+			print(contents)
+			
+So londg as the indented block that starts with the "with" keyword continues, the file is open, when the indented block ends the file is closed automatically.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
